@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
     <title>TODO App</title>
     <script src="https://cdn.tailwindcss.com">
@@ -13,12 +14,16 @@
         <div class="bg-white shadow-lg rounded-3xl p-16 ">
             <h1 class="text-gray-900 text-3xl font-bold text-center mb-6">TODO LIST</h1>
             <div class="flex mb-4">
-                <input class="flex-grow px-3 py-2 border rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500" type="text" placeholder="input a task">
-                <button class="bg-blue-500 text-white px-4 py-2 rounded-r-lg">Add</button>
+                <input
+                    id="input-Box"
+                    class="flex-grow px-3 py-2 border rounded-l-lg focus:outline-none focus:ring-2 focus:ring-blue-500"
+                    type="text" placeholder="input a task">
+                <button onclick="addTask()" class="bg-blue-500 text-white px-4 py-2 rounded-r-lg">Add</button>
             </div>
-            <ul class="space-y-2">
-
+            <ul id="list">
+                
             </ul>
         </div>
     </div>
+    <script src="defult.js"></script>
 </body>
