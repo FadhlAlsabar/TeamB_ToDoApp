@@ -1,0 +1,14 @@
+ul li span{
+    position: static;
+    right: 0;
+    width: 40px;
+    width: 4px;
+    margin-left: 70%;
+    font-size: 22px;
+    color: #030303;
+    line-height: 20px;
+    text-align: start;
+}
+ul li span:hover{
+    background: #a5a5a5;
+}
